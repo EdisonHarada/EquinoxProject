@@ -30,7 +30,7 @@ namespace Equinox.Domain.Core.Notifications
 
         public void Dispose()
         {
-            _notifications = new List<DomainNotification>();
+            _notifications = null;
         }
     }
 }
